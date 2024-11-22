@@ -1,9 +1,3 @@
-select * from employee_salary es; 
-select * from employees;
-select * from roles_employee re; 
-select * from salary s ;
-select * from roles r ;
-
 1. Вывести всех работников чьи зарплаты есть в базе, вместе с зарплатами.
 
 select employees.employee_name, salary.monthly_salary from
